@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-openai
+azure-search-documents
+azure-identity
+python-dotenv
+azure-storage-blob
+azure-ai-documentintelligence
+python-magic
+python-magic-bin
+pypdf
+unstructured
+unstructured[pdf]

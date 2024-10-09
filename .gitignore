@@ -1,0 +1,6 @@
+.azure
+.idea/
+.vscode/
+.env
+./challenges/challenge7/ingestion/images/
+./challenges/challenge4/ingestion/images/
