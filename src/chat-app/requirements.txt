@@ -18,3 +18,5 @@ python-magic-bin # does not work on Ubuntu - run sudo apt-get install python3-ma
 pypdf
 unstructured
 unstructured[pdf]
+pillow
+pymupdf
