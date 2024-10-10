@@ -5,18 +5,14 @@ langchain-community ~= 0.3.1
 python-dotenv ~= 1.0.1
 azure-search-documents ~= 11.5.1
 azure-identity ~= 1.18.0
-
 langgraph ~= 0.2.32
 pyodbc ~= 5.1.0
-
-
-# EDIT -> to fix versions
-azure-storage-blob
-azure-ai-documentintelligence
-python-magic # does not work on Ubuntu - run sudo apt-get install python3-magic
+azure-storage-blob ~= 12.23.1
+azure-ai-documentintelligence ~= 1.0.0b4
+python-magic ~= 0.4.27 # does not work on Ubuntu - run sudo apt-get install python3-magic
 python-magic-bin # does not work on Ubuntu - run sudo apt-get install python3-magic
-pypdf
-unstructured
+pypdf ~= 5.0.1
+unstructured ~= 0.15.13
 unstructured[pdf]
-pillow
-pymupdf
+pillow ~= 10.4.0
+pymupdf ~= 1.24.11
