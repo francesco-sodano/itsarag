@@ -51,7 +51,7 @@ the Azure services involved in this steps are the following:
 Let use the same set of documents we highlighted in the previous challange (stored in  the ```its-a-rag/data/fsi/pdf/``` folder of the repository):
 - *2023 FY AMZN.pdf*
 - *2023 FY AAPL.pdf*
-- *2023 FY INTC.pdf*
+- *2023 FY GOOGL.pdf*
 - *2023 FY MSFT.pdf*
 - *2023 FY NVDA.pdf*
 
