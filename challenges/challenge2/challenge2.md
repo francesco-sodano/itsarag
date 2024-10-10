@@ -116,7 +116,7 @@ The high-level steps to complete are:
 - Import the following file in a container in the blob storage including <\*ragdata\*> (name dependent on your environment), after creating a container named 'data'.
     - *2023 FY AMZN.pdf*
     - *2023 FY AAPL.pdf*
-    - *2023 FY INTC.pdf*
+    - *2023 FY GOOGL.pdf*
     - *2023 FY MSFT.pdf*
     - *2023 FY NVDA.pdf*
 
