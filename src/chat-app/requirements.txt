@@ -8,3 +8,13 @@ azure-identity ~= 1.18.0
 
 langgraph ~= 0.2.32
 pyodbc ~= 5.1.0
+
+
+# EDIT -> to fix versions
+azure-storage-blob
+azure-ai-documentintelligence
+python-magic # does not work on Ubuntu - run sudo apt-get install python3-magic
+python-magic-bin # does not work on Ubuntu - run sudo apt-get install python3-magic
+pypdf
+unstructured
+unstructured[pdf]
