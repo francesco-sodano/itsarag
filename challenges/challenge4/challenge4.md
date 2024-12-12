@@ -86,3 +86,9 @@ the high level steps are the following:
 
 - [Azure AI Document Intelligence](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/?view=doc-intel-4.0.0&branch=release-build-cogserv-forms-recognizer)
 - [Azure AI Document Intelligence Layout model](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-layout?view=doc-intel-4.0.0&tabs=sample-code)
+
+## FAQ
+
+### Resource Not Found error when running Document Intelligence
+
+This error usually happens when you use the wrong api version. Check in the [What's new](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/whats-new?view=doc-intel-4.0.0&tabs=csharp) document, or directly into the Document Intelligence Studio for the right version, as it depends on the region.
