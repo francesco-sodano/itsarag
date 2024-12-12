@@ -94,3 +94,15 @@ This will re-deploy the application code into the infrastructure we provisioned 
 
 * [Azure Developer CLI (azd)](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/) simplifies provisioning of our Azure infrastructure and deployment of our applications
 * [pytest](https://docs.pytest.org/en/stable/) is a Python testing framework that helps us automate application testing without having to run the full application or deploy it in Azure.
+
+## FAQ
+
+### How do I run the solution in docker?
+
+Check the [README](../../src/chat-app/README.md) in the `src/chat-app` directory for instructions on how to run the solution in docker.
+
+### I get an *httpx.UnsupportedProtocol* error when running the docker image locally
+
+This error is due to two problems:
+* The `AZURE_OPENAI_ENDPOINT` environment variable is not set in the `.env` file. Make sure to set it to the correct value.
+* The `AZURE_OPENAI_ENDPOINT` environment variable uses quotes in the `.env` file. Remove the quotes from the value.
