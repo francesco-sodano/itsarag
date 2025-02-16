@@ -140,7 +140,7 @@ Have fun! 🚀🚀
 
 ## What's New (2025-02-03)
 
-- Devcontainer as been rebuild using a custom image (x64 + arm64) with all the necessary tools to complete the challenges. This reduce significantly the time to setup the dev environment and the errors in the build.
+- Devcontainer has been rebuilt using a custom image (x64 + arm64) with all the necessary tools to complete the challenges. This reduces significantly the time to setup the dev environment and the errors in the build.
 - Python version used in the devcontainer has been set to 3.12. many libraries are not yet compatible with 3.13.
 - The Challenges instructions as been updated based on feedback received and to provide more details. Especially Challenge 1 and Challenge 2 includes more step-by-step instructions.
 - Custom libraries have been updated to the match the latest version of the Document Intelligence and LangChain.
