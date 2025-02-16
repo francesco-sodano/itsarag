@@ -10,13 +10,13 @@ Welcome to **IT'S A RAG** Hackathon.
 
 Large language models are powerful language generators, but they don't know everything about the world. RAG (Retrieval Augmented Generation) combines the power of large language models with the knowledge of a search engine. This allows you to ask questions of your own data, and get answers that are relevant to the context of your question.
 
-**IT'S A RAG** Hackathon is your opportunity to get deep into RAG and start building RAG yourself: The challenges are designed to be completed in order and their increase their complexity as you progress through them.
+**IT'S A RAG** Hackathon is your opportunity to get deep into RAG and start building RAG yourself: The challenges are designed to be completed sequentially and complexity is increased as progress is made.
 
-This hackathon is designed to help you learn and grow your skills in the field of AI and RAGs: you will learn how to build RAG apps on top of Azure AI in multiple models (Open AI / Phi-3.5) with multiple retrievers (AI Search, Azure SQL) with a defined Dataset or even your own data sources! 
+This hackathon is designed to help you learn and grow your skills in the field of AI and RAGs, how to build RAG apps on top of Azure AI in multiple models (Open AI / Phi-3.5) and multiple retrievers (AI Search, Azure SQL) using predefined Dataset or even your own data sources.
 
 You'll learn about a popular framework, LangChain, plus the latest technology, like agents and multi modal.
 
-> This Hackathon is providing a selection of datasets to be used **BUT** you can bring your own data instead.
+> This Hackathon is providing a selection of datasets to be used **OR** you can bring your own data instead.
 
 A bit more of a deep-dive on topics? Through the course of the hackathon, you will learn how to:
 
@@ -34,14 +34,14 @@ The challenges are designed to be completed in order with increasing complexity:
 
 The list of the challenges is the following:
 
-- **Challenge 0: Learn the Basics**: You will understand the basics of generative AI including tools and models.
-- **Challenge 1: Establish the Plan**: You will prepare your development environment and deploy the infrastructure.
-- **Challenge 2: Play with Azure AI Foundry**: Connect to an LLM for chat completion, ingest your docs in AzureSearch, play with the APIs.
+- **Challenge 0: Learn the Basics**: Understand the basics of generative AI including tools and models.
+- **Challenge 1: Establish the Plan**: Prepare your development environment and deploy the infrastructure.
+- **Challenge 2: Play with Azure AI Foundry**: Connect to an LLM for chat completion, ingest content in AzureSearch, play with the APIs.
 - **Challenge 3: Start Coding**: Use Jupyter Notebook to connect with LLM and ingest the first documents.
-- **Challenge 4: Advanced RAG**: You will ingest documents using the most advanced techniques (Advanced RAG) that take into account tables and images.
-- **Challenge 5: Multi-Source, Multi-Agent RAG**: You will add additional sources (SQL Server) to your RAG and create a multi-agent architecture.
-- **Challenge 6: Add Actions**: You will add actions to your RAG to perform API calls to external services.
-- **Challenge 7: Deploy your App**: You will develop and deploy your application using Azure Container Apps based on the Jupyter Notebooks code you developed.
+- **Challenge 4: Advanced RAG**: Ingest documents using the most advanced techniques (Advanced RAG) that take into account tables and images.
+- **Challenge 5: Multi-Source, Multi-Agent RAG**: Add additional sources (SQL Server) to the RAG and create a multi-agent architecture.
+- **Challenge 6: Add Actions**: Add actions to your RAG to perform API calls to external services.
+- **Challenge 7: Deploy your App**: Develop and deploy your application using Azure Container Apps based on the Jupyter Notebooks code you developed.
 
 -----------------------------------------------------------------
 ## The Datasets
@@ -133,7 +133,7 @@ We also suggest to add the following extensions to your Visual Studio Code:
 * Bicep
 * YAML
 
-Feel free to use any other tools/extensions you think are necessary for your development environment and could help you to complete the challenges.
+Feel free to use any other tools/extensions you deem necessary for your development environment and could help in completing the challenges.
 
 Have fun! 🚀🚀
 
