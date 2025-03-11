@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environmentName": {
+      "value": "${AZURE_ENV_NAME}"
+    },
+    "chatAppImage": {
+        "value": "${SERVICE_CHAT_APP_IMAGE_NAME}"
+    },
+    "chatAppResourceExists": {
+        "value": "${SERVICE_CHAT_APP_RESOURCE_EXISTS}"
+    },
+    "mockStockAppImage": {
+        "value": "${SERVICE_MOCKSTOCK_APP_IMAGE_NAME}"
+    },
+    "mockStockAppResourceExists": {
+        "value": "${SERVICE_MOCKSTOCK_APP_RESOURCE_EXISTS}"
+    },
+    "blobIndexerImage": {
+      "value": "${SERVICE_BLOB_INDEXER_IMAGE_NAME}"
+    },
+    "blobIndexerResourceExists": {
+      "value": "${SERVICE_BLOB_INDEXER_RESOURCE_EXISTS}"
+    },
+    "azurePrincipalId":{ 
+      "value": "${AZURE_PRINCIPAL_ID}"
+    }
+  }
+}

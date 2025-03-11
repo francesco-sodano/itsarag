@@ -1,0 +1,43 @@
+{
+  "image": "docker.io/dbroeglin/its-a-rag:dev",
+  /****************************************************************************
+   * If the prebuild DevContainer above does not work for you,
+   * use the following configuration instead:
+   */
+  /*
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "features": {
+    "ghcr.io/devcontainers/features/azure-cli:1": {
+      "installBicep": true // necessary to avoid a bug on Mac with ARM silicon
+    },
+    "ghcr.io/azure/azure-dev/azd:0": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.remotehub",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "github.vscode-pull-request-github",
+        "ms-vscode.vscode-node-azure-pack",
+        "ms-toolsai.jupyter",
+        "ms-azuretools.azure-dev",
+        "ms-azuretools.vscode-bicep",
+        "ms-vscode.powershell",
+        "donjayamanne.python-environment-manager",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "tomoki1207.pdf",
+        "redhat.vscode-yaml",
+        "ms-azuretools.vscode-docker",
+        "ms-azuretools.vscode-azureresourcegroups",
+        "ms-azuretools.vscode-azurestorage",
+        "formulahendry.azure-storage-explorer"
+      ]
+    }
+  },
+  */
+  "postCreateCommand": ".devcontainer/post-create.sh"
+}

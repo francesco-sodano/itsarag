@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+name: its-a-rag
+infra:
+  path: infra/rag
+services:
+    chat-app:
+        project: src/chat-app
+        host: containerapp
+        language: python
+        docker:
+            path: Dockerfile
+        # Uncomment if you want to build the image in Azure Container Registry
+        # remoteBuild: true
+    mockstock-app:
+        project: src/mockstock-app
+        host: containerapp
+        language: python
+        docker:
+            path: Dockerfile
+        # Uncomment if you want to build the image in Azure Container Registry
+        # remoteBuild: true
+hooks:
+  prepackage: # Mitigate azd bug: copy the libs into the app directory so that Docker has access to them
+    posix:
+      shell: sh
+      run: cp -r lib/its_a_rag src/chat-app/
+    windows:
+      shell: pwsh
+      run: cp -r lib/its_a_rag src/chat-app/ -Force
+  predeploy: 
+    run: ./scripts/predeploy.sh
+    interactive: true
+  predown:
+    run: ./scripts/delete_openai_deployments.sh

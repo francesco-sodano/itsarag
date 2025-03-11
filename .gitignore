@@ -1,0 +1,8 @@
+.azure
+.idea/
+.vscode/
+.env
+.venv
+challenges/challenge7/ingestion
+challenges/challenge4/ingestion
+__pycache__
