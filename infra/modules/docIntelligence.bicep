@@ -22,8 +22,6 @@ resource aiServices 'Microsoft.CognitiveServices/accounts@2023-05-01' = {
   }
   kind: 'FormRecognizer' // or 'OpenAI'
   properties: {
-    apiProperties: {
-      statisticsEnabled: false
-    }
+
   }
 }
