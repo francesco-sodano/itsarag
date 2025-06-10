@@ -10,7 +10,7 @@ Welcome to **IT'S A RAG** Hackathon.
 
 Large language models are powerful language generators, but they don't know everything about the world. RAG (Retrieval Augmented Generation) combines the power of large language models with the knowledge of a search engine. This allows you to ask questions of your own data, and get answers that are relevant to the context of your question.
 
-**IT'S A RAG** Hackathon is your opportunity to get deep into RAG and start building RAG yourself: The challenges are designed to be completed in order and their increase their complexity as you progress through them.
+**IT'S A RAG** Hackathon is your opportunity to get deep into RAG and start building RAG yourself: The challenges are designed to be completed in order and they increase their complexity as you progress through them.
 
 This hackathon is designed to help you learn and grow your skills in the field of AI and RAGs: you will learn how to build RAG apps on top of Azure AI in multiple models (Open AI / Phi-3.5) with multiple retrievers (AI Search, Azure SQL) with a defined Dataset or even your own data sources! 
 
@@ -47,11 +47,11 @@ The list of the challenges is the following:
 ## The Datasets
 
 For the dataset, you can use the provided datasets or bring your own data.
-We are providing different dataset for different industry, you can choose the one that fits better your needs.
+We are providing different datasets for different industries; you can choose the one that better fits your needs.
 
 ### FSI Dataset
 The provided dataset contains the Annual (10-K) SEC reports in PDF format for the years 2019-2023 for Apple, Microsoft, Amazon, Nvidia, and Intel.
-it also contians a SQL table with Stock values for the years 2019-2023 for Apple, Microsoft, Amazon, Nvidia, and Intel.
+it also contains a SQL table with Stock values for the years 2019-2023 for Apple, Microsoft, Amazon, Nvidia, and Intel.
 You can have a look at the datasets in the following path: `./data/fsi/pdf/`
 
 ### Healthcare Dataset
@@ -105,11 +105,11 @@ This Hackathon is designed to be run on Azure. Each participant needs an Azure s
 
 #### Development Environment
 
-This Hackathon requires you develop in Python. You can use any IDE you prefer, but we recommend using Visual Studio Code.
+This Hackathon requires you to develop in Python. You can use any IDE you prefer, but we recommend using Visual Studio Code.
 
 **We strongly recommend using the provided development container. This container has all the necessary tools to complete the challenges.**
 
-Here the minimal list of tools you need to have installed:
+Here's the minimal list of tools you need to have installed:
 
 * Visual Studio Code
 * Python 3.12
@@ -118,7 +118,7 @@ Here the minimal list of tools you need to have installed:
 * Windows Subsystem Linux 2
 * Docker Desktop 4.34 with WSL2 Engine
 
-We also suggest to add the following extensions to your Visual Studio Code:
+We also suggest adding the following extensions to your Visual Studio Code:
 
 * GitHub Copilot
 * GitHub Copilot Chat
@@ -140,11 +140,11 @@ Have fun! 🚀🚀
 
 ## What's New (2025-02-03)
 
-- Devcontainer as been rebuild using a custom image (x64 + arm64) with all the necessary tools to complete the challenges. This reduce significantly the time to setup the dev environment and the errors in the build.
-- Python version used in the devcontainer has been set to 3.12. many libraries are not yet compatible with 3.13.
-- The Challenges instructions as been updated based on feedback received and to provide more details. Especially Challenge 1 and Challenge 2 includes more step-by-step instructions.
+- Devcontainer has been rebuilt using a custom image (x64 + arm64) with all the necessary tools to complete the challenges. This reduce significantly the time to setup the dev environment and the errors in the build.
+- Python version used in the devcontainer has been set to 3.12. Many libraries are not yet compatible with 3.13.
+- The Challenges instructions have been updated based on feedback received and to provide more details. Especially Challenge 1 and Challenge 2 includes more step-by-step instructions.
 - Custom libraries have been updated to the match the latest version of the Document Intelligence and LangChain.
-- Bicep files for AI Foundry now deploy SQL Server S2 SKU instaad of the free tier to avoid issues with the number of instances.
+- Bicep files for AI Foundry now deploy SQL Server S2 SKU instead of the free tier to avoid issues with the number of instances.
 - Python libraries have been updated to the latest version where possible.
 - Updated version of the Attendee Guide
 - Removed Azure Storage Explorer extension (deprecated).
